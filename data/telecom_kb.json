@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "text": "My mobile internet has been really slow for the past few days.",
+    "intent": "network_issue",
+    "sentiment": "negative",
+    "reply": "I'm sorry to hear about the slow internet. Could you please share your location so I can check for any network disruptions in your area?"
+  },
+  {
+    "id": 2,
+    "text": "I keep getting call drops when I talk to people.",
+    "intent": "network_issue",
+    "sentiment": "negative",
+    "reply": "That’s frustrating. We’re currently optimizing our towers in some regions. Please confirm your location so we can raise a service ticket."
+  },
+  {
+    "id": 3,
+    "text": "How can I recharge my prepaid number?",
+    "intent": "plan_info",
+    "sentiment": "neutral",
+    "reply": "You can recharge through our mobile app, website, or any UPI platform. Would you like me to send you the recharge link?"
+  },
+  {
+    "id": 4,
+    "text": "I want to upgrade to a 5G data plan.",
+    "intent": "plan_upgrade",
+    "sentiment": "neutral",
+    "reply": "Sure! You can upgrade via the app under ‘My Plans’ → ‘Upgrade’. Would you like me to list available 5G plans?"
+  },
+  {
+    "id": 5,
+    "text": "My postpaid bill seems higher than usual this month.",
+    "intent": "billing_issue",
+    "sentiment": "negative",
+    "reply": "Let me help you check that. Could you confirm your mobile number so I can review the last bill details?"
+  },
+  {
+    "id": 6,
+    "text": "The network is not available in my area.",
+    "intent": "network_issue",
+    "sentiment": "negative",
+    "reply": "Apologies for the inconvenience. Please share your area pincode so I can check the network coverage status."
+  },
+  {
+    "id": 7,
+    "text": "I need help activating international roaming.",
+    "intent": "service_activation",
+    "sentiment": "neutral",
+    "reply": "Sure! You can activate international roaming from our app under ‘Roaming Services’. Would you like me to guide you through it?"
+  },
+  {
+    "id": 8,
+    "text": "Can I get a detailed breakdown of my bill?",
+    "intent": "billing_issue",
+    "sentiment": "neutral",
+    "reply": "Of course. You can download your detailed bill from the app’s ‘Billing’ section or I can email it to your registered address."
+  },
+  {
+    "id": 9,
+    "text": "My SIM card stopped working suddenly.",
+    "intent": "sim_issue",
+    "sentiment": "negative",
+    "reply": "Please try reinserting the SIM and restarting your phone. If the issue persists, we can arrange a SIM replacement."
+  },
+  {
+    "id": 10,
+    "text": "The internet is disconnecting every few minutes.",
+    "intent": "network_issue",
+    "sentiment": "negative",
+    "reply": "I understand that’s annoying. Could you confirm if this happens indoors or outdoors? This helps us diagnose connectivity strength."
+  },
+  {
+    "id": 11,
+    "text": "How can I check my data usage?",
+    "intent": "plan_info",
+    "sentiment": "neutral",
+    "reply": "You can check data usage in the mobile app dashboard or dial *199#. Would you like a link to the usage page?"
+  },
+  {
+    "id": 12,
+    "text": "My number is not receiving OTP messages.",
+    "intent": "sms_issue",
+    "sentiment": "negative",
+    "reply": "Please ensure SMS services aren’t blocked and your inbox isn’t full. If it persists, I can escalate this to our network team."
+  },
+  {
+    "id": 13,
+    "text": "How can I port my number to your network?",
+    "intent": "porting_request",
+    "sentiment": "neutral",
+    "reply": "You can send an SMS ‘PORT <your number>’ to 1900. Once you receive the UPC code, visit our store or website to complete porting."
+  },
+  {
+    "id": 14,
+    "text": "The recharge failed but the money was deducted.",
+    "intent": "payment_issue",
+    "sentiment": "negative",
+    "reply": "Sorry about that. Please share the transaction ID and we’ll verify and issue a refund within 2–3 working days."
+  },
+  {
+    "id": 15,
+    "text": "My WiFi speed is too slow to even stream a video.",
+    "intent": "network_issue",
+    "sentiment": "negative",
+    "reply": "Please restart your router and check again. If the issue persists, I can schedule a technician visit."
+  },
+  {
+    "id": 16,
+    "text": "Can I convert my prepaid number to postpaid?",
+    "intent": "plan_upgrade",
+    "sentiment": "neutral",
+    "reply": "Yes, you can easily convert to postpaid using our app or by visiting the nearest store. Want me to show the steps?"
+  },
+  {
+    "id": 17,
+    "text": "I lost my phone, please block my SIM immediately.",
+    "intent": "sim_block_request",
+    "sentiment": "urgent",
+    "reply": "I'm sorry to hear that. Please confirm your registered number and ID proof so I can block the SIM right away for your safety."
+  },
+  {
+    "id": 18,
+    "text": "The customer care executive was rude.",
+    "intent": "complaint",
+    "sentiment": "negative",
+    "reply": "I apologize for that experience. I’ll escalate this to our quality team and ensure corrective action is taken."
+  },
+  {
+    "id": 19,
+    "text": "I was charged for data even though I had WiFi on.",
+    "intent": "billing_issue",
+    "sentiment": "negative",
+    "reply": "Please check if mobile data was active in the background. I can still raise a review request for incorrect data charges."
+  },
+  {
+    "id": 20,
+    "text": "Please share available family plans.",
+    "intent": "plan_info",
+    "sentiment": "neutral",
+    "reply": "We offer several family plans with shared data and discounts. Would you like me to list them with pricing details?"
+  }
+]

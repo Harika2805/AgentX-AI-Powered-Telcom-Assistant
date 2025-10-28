@@ -1,0 +1,11 @@
+cohere
+qdrant-client
+streamlit
+python-dotenv
+numpy
+llama-index
+llama-index-core
+llama-index-llms-cohere
+llama-index-embeddings-cohere
+llama-index-vector-stores-qdrant
+requests
